@@ -1,12 +1,15 @@
 {
   "manifest_version": 3,
-  "name": "Youtube Always Best Quality",
-  "description": "Always play the best quality available on Youtube",
+  "name": "Youtube High Quality",
+  "description": "Always play the best quality available on Youtube, just install and forget about it.",
   "version": "1.0",
   "permissions": [
     "tabs",
     "activeTab"
   ],
+  "icons": {
+    "128": "128.png"
+  },
   "background": {
     "service_worker": "background.js"
   },
